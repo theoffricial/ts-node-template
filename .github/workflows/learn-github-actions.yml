@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: ./node_modules/.bin/eslint .
+      - run: ./node_modules/.bin/eslint . --max-warnings=0
