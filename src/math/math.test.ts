@@ -1,4 +1,4 @@
-import {MathExample} from './math';
+import { MathExample } from './math';
 
 describe('MathExample', () => {
     describe('add', () => {
@@ -21,4 +21,3 @@ describe('MathExample', () => {
         });
     });
 });
-
