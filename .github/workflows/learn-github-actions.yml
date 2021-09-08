@@ -12,4 +12,4 @@ jobs:
       - run: npm build --if-present
       - run: ./node_modules/.bin/eslint . --max-warnings=0
       - name: Test
-      - run: npm test
+        run: npm test
